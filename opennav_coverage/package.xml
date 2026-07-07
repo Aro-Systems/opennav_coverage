@@ -13,6 +13,7 @@
   <depend>rclcpp</depend>
   <depend>rclcpp_action</depend>
   <depend>rclcpp_lifecycle</depend>
+  <depend>rclcpp_components</depend>
   <depend>nav2_util</depend>
   <depend>nav2_msgs</depend>
   <depend>nav_msgs</depend>
@@ -20,6 +21,8 @@
   <depend>builtin_interfaces</depend>
   <depend>tf2_ros</depend>
   <depend>fields2cover</depend>
+  <depend>std_msgs</depend>
+  <depend>visualization_msgs</depend>
   <depend>opennav_coverage_msgs</depend>
 
   <test_depend>ament_lint_common</test_depend>
