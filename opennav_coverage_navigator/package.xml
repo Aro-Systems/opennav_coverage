@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>opennav_coverage_navigator</name>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <description>A navigator plugin for BT Navigator for coverage planning</description>
   <maintainer email="steve@opennav.org">Steve Macenski</maintainer>
   <license>Apache-2.0</license>

@@ -8,7 +8,7 @@ package_name = 'opennav_coverage_demo'
 
 setup(
     name=package_name,
-    version='0.0.3',
+    version='0.0.4',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
