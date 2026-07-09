@@ -62,13 +62,9 @@ ament_target_dependencies(${library_name}
 
 # Fields2Cover exposes a different target name depending on the install method
 # (source install: Fields2Cover; ROS/apt package: Fields2Cover::Fields2Cover).
-if(TARGET Fields2Cover::Fields2Cover)
-  set(FIELDS2COVER_LIBRARIES Fields2Cover::Fields2Cover)
-else()
-  set(FIELDS2COVER_LIBRARIES Fields2Cover)
-endif()
+# NOTE: we are forcing apt package for now
 
-target_link_libraries(${library_name} ${FIELDS2COVER_LIBRARIES} GDAL::GDAL)
+target_link_libraries(${library_name} Fields2Cover::Fields2Cover GDAL::GDAL)
 
 # Treat Fields2Cover headers as SYSTEM so their own warnings (e.g. -Wshadow in
 # objectives/rp_obj/*) do not break this project's -Werror build. Uses the
